@@ -97,12 +97,34 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img {
+    transition: 2s;
+}
+.ex-9-img:hover {
+    filter: blur(7px) invert(100%);
+    border-radius: 20px;
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
+}
+
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
 }
 .ex-11-icon {
     font-size: 60px;
 }
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
